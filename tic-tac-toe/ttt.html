@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ttt.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Game</title>
+    <style>
+        table td {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 100px;
+    border: 5px solid white;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+.strike {
+    text-decoration: line-through;
+    color: red;
+}
+.btn{
+    transition: transform.4s;
+    background-color: #05495e;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: #39bfd1;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><b>Tic - Tac - Toe</b> </h2><br>
+        <button id="b" class="btn btn-primary btn-sm">Restart Game</button><br><br><br>
+        <table>
+            <tr>
+                <td id="one"></td>
+                <td id="two"></td>
+                <td id="three"></td>
+            </tr>
+            <tr>
+                <td id="four"></td>
+                <td id="five"></td>
+                <td id="six"></td>
+            </tr>
+            <tr>
+                <td id="seven"></td>
+                <td id="eight"></td>
+                <td id="nine"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="ttt1.js"></script>
+</body>
+</html>
