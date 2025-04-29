@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manage Permissions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Manage Data Sharing</h1>
+
+    <div class="app">
+      <div>
+        <h3>Smart City App</h3>
+        <p>Smart city app related text</p>
+      </div>
+      <button onclick="togglePermission(this)">Revoke</button>
+    </div>
+
+    <div class="app">
+      <div>
+        <h3>Health Tracker</h3>
+        <p>Health tracker app related information</p>
+      </div>
+      <button onclick="togglePermission(this)">Grant</button>
+    </div>
+
+    <div class="app">
+      <div>
+        <h3>Utility Dashboard</h3>
+        <p>Utility dashboard related information.</p>
+      </div>
+      <button onclick="togglePermission(this)">Revoke</button>
+    </div>
+
+    <a href="index.html" class="link-btn">← Back to Dashboard</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
