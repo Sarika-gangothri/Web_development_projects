@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consent Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, Sarika!</h1>
+    <h2>Your Data Sharing Permissions</h2>
+    <div class="app" id="app1">
+      <span>Smart City App</span>
+      <button onclick="togglePermission(this)">Allowed</button>
+    </div>
+    <div class="app" id="app2">
+      <span>Health Tracker</span>
+      <button onclick="togglePermission(this)">Revoked</button>
+    </div>
+    <div class="app" id="app3">
+      <span>Utility Dashboard</span>
+      <button onclick="togglePermission(this)">Allowed</button>
+    </div>
+
+    <a href="manage.html" class="link-btn">Go to Manage Permissions</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
